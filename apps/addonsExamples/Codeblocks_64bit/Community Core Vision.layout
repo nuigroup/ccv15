@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../addons/ofxDirList/src/ofxDirList.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="1593" topLine="47" />
+	</File>
+	<File name="../../../addons/ofxFiducialFinder/src/ofxFiducial.h" open="0" top="0" tabpos="6">
+		<Cursor position="13029" topLine="360" />
+	</File>
+	<File name="../../../addons/ofxFiducialFinder/src/ofxFiducialTracker.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="1260" topLine="37" />
+	</File>
+	<File name="../../../addons/ofxFiducialFinder/src/ofxFinger.h" open="1" top="0" tabpos="8">
+		<Cursor position="2357" topLine="65" />
+	</File>
+	<File name="../../../addons/ofxNCore/src/Camera/CameraUtils.h" open="0" top="0" tabpos="0">
+		<Cursor position="1561" topLine="47" />
+	</File>
+	<File name="../../../addons/ofxNCore/src/Controls/gui.h" open="1" top="0" tabpos="2">
+		<Cursor position="18408" topLine="174" />
+	</File>
+	<File name="../../../addons/ofxNCore/src/Modules/ofxNCoreVision.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="36827" topLine="1032" />
+	</File>
+	<File name="../../../addons/ofxNCore/src/Modules/ofxNCoreVision.h" open="0" top="0" tabpos="4">
+		<Cursor position="2882" topLine="106" />
+	</File>
+	<File name="../../../addons/ofxNCore/src/Tracking/Tracking.h" open="0" top="0" tabpos="3">
+		<Cursor position="268" topLine="26" />
+	</File>
+	<File name="../../../addons/ofxNetwork/src/ofxNetwork.h" open="1" top="0" tabpos="4">
+		<Cursor position="185" topLine="0" />
+	</File>
+	<File name="../../../addons/ofxNetwork/src/ofxNetworkUtils.h" open="1" top="0" tabpos="5">
+		<Cursor position="508" topLine="24" />
+	</File>
+	<File name="../../../addons/ofxNetwork/src/ofxTCPManager.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="74" topLine="0" />
+	</File>
+	<File name="src/main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="457" topLine="0" />
+	</File>
+	<File name="src/testApp.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="625" topLine="9" />
+	</File>
+</CodeBlocks_layout_file>

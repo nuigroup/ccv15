@@ -1,0 +1,1 @@
+This has been tried and tested in Ubuntu 10.10 32 bit on Codeblocks 10.05
