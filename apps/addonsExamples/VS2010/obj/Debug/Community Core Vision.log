@@ -1,0 +1,427 @@
+﻿Build started 16.10.2012 13:52:42.
+     1>Project "C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\Community Core Vision.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Touching "obj\Debug\Community Core Vision.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\addons\ofxCMU\inc /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxDShow\src /I..\..\..\addons\ofxNCore\src\Calibration /I..\..\..\addons\ofxMultiplexer\inc /I..\..\..\addons\ofxCameraBase\inc /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\Poco\include /I..\..\..\addons /I..\..\..\addons\ofxNetwork\src /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxObjLoader\src /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxOsc\src /I..\..\..\addons\ofxOsc\libs\oscpack\include\ip /I..\..\..\addons\ofxOsc\libs\oscpack\include\osc /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorGraphics\src /I..\..\..\addons\ofxVectorGraphics\libs /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxXMLSettings\libs /I..\..\..\addons\ofxXMLSettings\src /I..\..\..\addons\ofx3DModelLoader\src /I..\..\..\addons\ofx3DModelLoader\src\3DS /I..\..\..\addons\ofxPS3\src /I..\..\..\addons\ofxFFMV\src /I..\..\..\addons\ofxNCore\src /I..\..\..\addons\ofxDSVL\src /I..\..\..\addons\ofxFiducialFinder\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\testApp.cpp ..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp ..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp ..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp ..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp ..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp ..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp ..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp ..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp ..\..\..\addons\ofxOsc\src\ofxOscSender.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp ..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.cpp ..\..\..\addons\ofxThread\src\ofxThread.cpp ..\..\..\addons\ofxDirList\src\ofxDirList.cpp ..\..\..\addons\ofxFFMV\src\ofxffmv.cpp ..\..\..\addons\ofxNCore\src\Calibration\Calibration.cpp ..\..\..\addons\ofxNCore\src\Calibration\CalibrationUtils.cpp ..\..\..\addons\ofxNCore\src\Communication\TUIO.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGui.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiArrow.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiButton.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiColor.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiFiles.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiGlobals.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiGrid.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiImage.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiKnob.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiLabel.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiMatrix.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiObject.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiPanel.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiPoints.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiRadar.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiScope.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiSlider.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiSwitch.cpp ..\..\..\addons\ofxNCore\src\Controls\ofxGuiXYPad.cpp ..\..\..\addons\ofxNCore\src\Events\TouchMessenger.cpp ..\..\..\addons\ofxNCore\src\Filters\CPUImageFilter.cpp ..\..\..\addons\ofxNCore\src\Filters\GPUImageFilter.cpp ..\..\..\addons\ofxNCore\src\Filters\ShaderProgram.cpp ..\..\..\addons\ofxNCore\src\Modules\ofxNCoreVision.cpp ..\..\..\addons\ofxNCore\src\Tracking\ContourFinder.cpp ..\..\..\addons\ofxNCore\src\Tracking\Tracking.cpp ..\..\..\addons\ofxNCore\src\Templates\TemplateUtils.cpp ..\..\..\addons\ofxPS3\src\ofxPS3.cpp ..\..\..\addons\ofxFiducialFinder\src\ofxFiducialFinder.cpp ..\..\..\addons\ofxFiducialFinder\src\ofxFiducialTracker.cpp ..\..\..\addons\ofxFiducialFinder\src\libfidtrack\fidtrackX.cpp ..\..\..\addons\ofxFiducialFinder\src\libfidtrack\segment.cpp ..\..\..\addons\ofxFiducialFinder\src\libfidtrack\treeidmap.cpp ..\..\..\addons\ofxCameraBase\src\ofxCameraBase.cpp ..\..\..\addons\ofxMultiplexer\src\ofxGUIDHelper.cpp ..\..\..\addons\ofxMultiplexer\src\ofxMultiplexer.cpp ..\..\..\addons\ofxMultiplexer\src\ofxMultiplexerManager.cpp ..\..\..\addons\ofxCMU\src\ofxCMUCamera.cpp ..\..\..\addons\ofxDShow\src\ofxDShow.cpp ..\..\..\addons\ofxKinect\src\ofxKinect.cpp
+         ofxKinect.cpp
+         ofxDShow.cpp
+         ofxCMUCamera.cpp
+         ofxMultiplexerManager.cpp
+         ofxMultiplexer.cpp
+         ofxGUIDHelper.cpp
+     1>c:\_development\vs2010port\ccv15\addons\ofxmultiplexer\src\ofxguidhelper.cpp(125): warning C4018: '<' : signed/unsigned mismatch
+         ofxCameraBase.cpp
+         treeidmap.cpp
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\treeidmap.cpp(60): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\treeidmap.cpp(143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\treeidmap.cpp(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         segment.cpp
+         fidtrackX.cpp
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\fidtrackx.cpp(85): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\fidtrackx.cpp(87): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\fidtrackx.cpp(277): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\fidtrackx.cpp(278): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\fidtrackx.cpp(279): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\fidtrackx.cpp(281): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxfiducialfinder\src\libfidtrack\fidtrackx.cpp(304): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         ofxFiducialTracker.cpp
+         ofxFiducialFinder.cpp
+         ofxPS3.cpp
+         TemplateUtils.cpp
+         Tracking.cpp
+         ContourFinder.cpp
+         ofxNCoreVision.cpp
+         ShaderProgram.cpp
+         GPUImageFilter.cpp
+         CPUImageFilter.cpp
+         Generating Code...
+         Compiling...
+         TouchMessenger.cpp
+         ofxGuiXYPad.cpp
+         ofxGuiSwitch.cpp
+         ofxGuiSlider.cpp
+         ofxGuiScope.cpp
+         ofxGuiRadar.cpp
+         ofxGuiPoints.cpp
+         ofxGuiPanel.cpp
+         ofxGuiObject.cpp
+         ofxGuiMatrix.cpp
+         ofxGuiLabel.cpp
+         ofxGuiKnob.cpp
+         ofxGuiImage.cpp
+         ofxGuiGrid.cpp
+         ofxGuiGlobals.cpp
+         ofxGuiFiles.cpp
+         ofxGuiColor.cpp
+         ofxGuiButton.cpp
+         ofxGuiArrow.cpp
+         ofxGui.cpp
+         Generating Code...
+         Compiling...
+         TUIO.cpp
+         CalibrationUtils.cpp
+         Calibration.cpp
+         ofxffmv.cpp
+         ofxDirList.cpp
+         ofxThread.cpp
+         ofxMatrix3x3.cpp
+         ofxCvShortImage.cpp
+         ofxCvImage.cpp
+         ofxCvGrayscaleImage.cpp
+         ofxCvFloatImage.cpp
+         ofxCvContourFinder.cpp
+         ofxCvColorImage.cpp
+         ofxOscSender.cpp
+         ofxOscReceiver.cpp
+         ofxOscMessage.cpp
+     1>c:\_development\vs2010port\ccv15\addons\ofxosc\src\ofxoscmessage.cpp(92): warning C4244: 'return' : conversion from 'float' to 'int32_t', possible loss of data
+     1>c:\_development\vs2010port\ccv15\addons\ofxosc\src\ofxoscmessage.cpp(112): warning C4244: 'return' : conversion from 'int32_t' to 'float', possible loss of data
+         ofxOscBundle.cpp
+         ofxUDPManager.cpp
+         ofxTCPServer.cpp
+         ofxTCPManager.cpp
+         Generating Code...
+         Compiling...
+         ofxTCPClient.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         ofxXmlSettings.cpp
+         testApp.cpp
+         main.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\addons\ofxCMU\inc /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxDShow\src /I..\..\..\addons\ofxNCore\src\Calibration /I..\..\..\addons\ofxMultiplexer\inc /I..\..\..\addons\ofxCameraBase\inc /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\Poco\include /I..\..\..\addons /I..\..\..\addons\ofxNetwork\src /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxObjLoader\src /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxOsc\src /I..\..\..\addons\ofxOsc\libs\oscpack\include\ip /I..\..\..\addons\ofxOsc\libs\oscpack\include\osc /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorGraphics\src /I..\..\..\addons\ofxVectorGraphics\libs /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxXMLSettings\libs /I..\..\..\addons\ofxXMLSettings\src /I..\..\..\addons\ofx3DModelLoader\src /I..\..\..\addons\ofx3DModelLoader\src\3DS /I..\..\..\addons\ofxPS3\src /I..\..\..\addons\ofxFFMV\src /I..\..\..\addons\ofxNCore\src /I..\..\..\addons\ofxDSVL\src /I..\..\..\addons\ofxFiducialFinder\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\addons\ofxFiducialFinder\src\tiled_bernsen_threshold.c
+         tiled_bernsen_threshold.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"obj\Debug\Community Core Vision.res" "Community Core Vision.rc" 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"obj\Debug\CCV_debug.exe.embed.manifest.res" obj\Debug\CCV_debug_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\CCV_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\addons\ofxCMU\lib /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\freeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\glee\lib\vs2008 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 1394camerad.lib OpenGL32.lib GLu32.lib vfw32.lib kernel32.lib setupapi.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib GLee.lib fmodex_vc.lib glu32.lib PocoFoundationmtd.lib PocoNetmtd.lib PocoUtilmtd.lib PocoXMLmtd.lib Ws2_32.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cv110d.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cvaux110d.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cxcore110d.lib ..\..\..\addons\ofxOsc\libs\oscpack\lib\vs2010\oscpackd.lib ..\..\..\addons\ofxPS3\lib\CLEyeMulticam.lib ..\..\..\addons\ofxFFMV\lib\PGRFlyCapture.lib ..\..\..\addons\ofxFFMV\lib\pgrflycapturegui.lib ..\..\..\addons\ofxKinect\lib\CLNUIDevice.lib ..\..\..\libs\openFrameworksCompiled\lib\vs2010\openframeworksLibDebug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Debug\CCV_debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\CCV_debug_debugInfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\CCV_debug.lib" /MACHINE:X86 "obj\Debug\Community Core Vision.res"
+         obj\Debug\CCV_debug.exe.embed.manifest.res
+         obj\Debug\main.obj
+         obj\Debug\testApp.obj
+         obj\Debug\ofxXmlSettings.obj
+         obj\Debug\tinyxml.obj
+         obj\Debug\tinyxmlerror.obj
+         obj\Debug\tinyxmlparser.obj
+         obj\Debug\ofxTCPClient.obj
+         obj\Debug\ofxTCPManager.obj
+         obj\Debug\ofxTCPServer.obj
+         obj\Debug\ofxUDPManager.obj
+         obj\Debug\ofxOscBundle.obj
+         obj\Debug\ofxOscMessage.obj
+         obj\Debug\ofxOscReceiver.obj
+         obj\Debug\ofxOscSender.obj
+         obj\Debug\ofxCvColorImage.obj
+         obj\Debug\ofxCvContourFinder.obj
+         obj\Debug\ofxCvFloatImage.obj
+         obj\Debug\ofxCvGrayscaleImage.obj
+         obj\Debug\ofxCvImage.obj
+         obj\Debug\ofxCvShortImage.obj
+         obj\Debug\ofxMatrix3x3.obj
+         obj\Debug\ofxThread.obj
+         obj\Debug\ofxDirList.obj
+         obj\Debug\ofxffmv.obj
+         obj\Debug\Calibration.obj
+         obj\Debug\CalibrationUtils.obj
+         obj\Debug\TUIO.obj
+         obj\Debug\ofxGui.obj
+         obj\Debug\ofxGuiArrow.obj
+         obj\Debug\ofxGuiButton.obj
+         obj\Debug\ofxGuiColor.obj
+         obj\Debug\ofxGuiFiles.obj
+         obj\Debug\ofxGuiGlobals.obj
+         obj\Debug\ofxGuiGrid.obj
+         obj\Debug\ofxGuiImage.obj
+         obj\Debug\ofxGuiKnob.obj
+         obj\Debug\ofxGuiLabel.obj
+         obj\Debug\ofxGuiMatrix.obj
+         obj\Debug\ofxGuiObject.obj
+         obj\Debug\ofxGuiPanel.obj
+         obj\Debug\ofxGuiPoints.obj
+         obj\Debug\ofxGuiRadar.obj
+         obj\Debug\ofxGuiScope.obj
+         obj\Debug\ofxGuiSlider.obj
+         obj\Debug\ofxGuiSwitch.obj
+         obj\Debug\ofxGuiXYPad.obj
+         obj\Debug\TouchMessenger.obj
+         obj\Debug\CPUImageFilter.obj
+         obj\Debug\GPUImageFilter.obj
+         obj\Debug\ShaderProgram.obj
+         obj\Debug\ofxNCoreVision.obj
+         obj\Debug\ContourFinder.obj
+         obj\Debug\Tracking.obj
+         obj\Debug\TemplateUtils.obj
+         obj\Debug\ofxPS3.obj
+         obj\Debug\ofxFiducialFinder.obj
+         obj\Debug\ofxFiducialTracker.obj
+         obj\Debug\tiled_bernsen_threshold.obj
+         obj\Debug\fidtrackX.obj
+         obj\Debug\segment.obj
+         obj\Debug\treeidmap.obj
+         obj\Debug\ofxCameraBase.obj
+         obj\Debug\ofxGUIDHelper.obj
+         obj\Debug\ofxMultiplexer.obj
+         obj\Debug\ofxMultiplexerManager.obj
+         obj\Debug\ofxCMUCamera.obj
+         obj\Debug\ofxDShow.obj
+         obj\Debug\ofxKinect.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>rtAudioD.lib(rtAudio.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'rtAudioD.lib(rtAudio.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(AtomicCounter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(AtomicCounter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Bugcheck.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Bugcheck.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Debugger.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Debugger.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Exception.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Exception.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Mutex.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Mutex.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(RWLock.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(RWLock.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Timestamp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Timestamp.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(ASCIIEncoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(ASCIIEncoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Latin1Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Latin1Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Latin9Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Latin9Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(TextConverter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextConverter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(TextEncoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextEncoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(TextIterator.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextIterator.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(UnicodeConverter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UnicodeConverter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(UTF16Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UTF16Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(UTF8Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UTF8Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Windows1252Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Windows1252Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvaccum.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvaccum.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvadapthresh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvadapthresh.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvapprox.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvapprox.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvcolor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvcolor.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvcontours.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvcontours.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvconvhull.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvconvhull.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvfilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvfilter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvgeometry.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvgeometry.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvhistogram.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvhistogram.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvimgwarp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvimgwarp.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvmoments.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvmoments.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvmorph.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvmorph.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvrotcalipers.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvrotcalipers.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvshapedescr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvshapedescr.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvsmooth.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvsmooth.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvsumpixels.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvsumpixels.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvtables.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvtables.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvtemplmatch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvtemplmatch.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvthresh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvthresh.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvundistort.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvundistort.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvutils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxalloc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxalloc.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxarithm.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxarithm.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxarray.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxarray.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxcmp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxcmp.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxconvert.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxconvert.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxcopy.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxcopy.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxdatastructs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdatastructs.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxdrawing.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdrawing.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxdxt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdxt.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxerror.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxjacobieigens.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxjacobieigens.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxlogic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxlogic.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxlut.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxlut.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmathfuncs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmathfuncs.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmatmul.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmatmul.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmatrix.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmatrix.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmean.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmean.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmeansdv.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmeansdv.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxminmaxloc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxminmaxloc.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxnorm.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxnorm.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxouttext.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxouttext.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxpersistence.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxpersistence.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxrand.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxrand.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxsumpixels.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxsumpixels.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxsvd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxsvd.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxswitcher.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxswitcher.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxtables.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxtables.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxutils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(IpEndpointName.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(IpEndpointName.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(NetworkingUtils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(NetworkingUtils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(UdpSocket.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(UdpSocket.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(OscOutboundPacketStream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(OscOutboundPacketStream.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(OscReceivedElements.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(OscReceivedElements.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(OscTypes.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(OscTypes.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofAppGlutWindow.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofAppGlutWindow.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofAppRunner.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofAppRunner.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofBitmapFont.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofBitmapFont.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofGraphics.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofGraphics.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofImage.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofImage.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofTexture.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofTexture.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofTrueTypeFont.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofTrueTypeFont.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofMath.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofMath.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofUtils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofUtils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofQtUtils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofQtUtils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofVideoPlayer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofVideoPlayer.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"obj\Debug\CCV_debug.exe.embed.manifest" /manifest obj\Debug\CCV_debug.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"obj\Debug\CCV_debug.exe.embed.manifest.res" obj\Debug\CCV_debug_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\CCV_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\addons\ofxCMU\lib /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\freeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\glee\lib\vs2008 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 1394camerad.lib OpenGL32.lib GLu32.lib vfw32.lib kernel32.lib setupapi.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib GLee.lib fmodex_vc.lib glu32.lib PocoFoundationmtd.lib PocoNetmtd.lib PocoUtilmtd.lib PocoXMLmtd.lib Ws2_32.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cv110d.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cvaux110d.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cxcore110d.lib ..\..\..\addons\ofxOsc\libs\oscpack\lib\vs2010\oscpackd.lib ..\..\..\addons\ofxPS3\lib\CLEyeMulticam.lib ..\..\..\addons\ofxFFMV\lib\PGRFlyCapture.lib ..\..\..\addons\ofxFFMV\lib\pgrflycapturegui.lib ..\..\..\addons\ofxKinect\lib\CLNUIDevice.lib ..\..\..\libs\openFrameworksCompiled\lib\vs2010\openframeworksLibDebug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Debug\CCV_debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\CCV_debug_debugInfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\CCV_debug.lib" /MACHINE:X86 "obj\Debug\Community Core Vision.res"
+         obj\Debug\CCV_debug.exe.embed.manifest.res
+         obj\Debug\main.obj
+         obj\Debug\testApp.obj
+         obj\Debug\ofxXmlSettings.obj
+         obj\Debug\tinyxml.obj
+         obj\Debug\tinyxmlerror.obj
+         obj\Debug\tinyxmlparser.obj
+         obj\Debug\ofxTCPClient.obj
+         obj\Debug\ofxTCPManager.obj
+         obj\Debug\ofxTCPServer.obj
+         obj\Debug\ofxUDPManager.obj
+         obj\Debug\ofxOscBundle.obj
+         obj\Debug\ofxOscMessage.obj
+         obj\Debug\ofxOscReceiver.obj
+         obj\Debug\ofxOscSender.obj
+         obj\Debug\ofxCvColorImage.obj
+         obj\Debug\ofxCvContourFinder.obj
+         obj\Debug\ofxCvFloatImage.obj
+         obj\Debug\ofxCvGrayscaleImage.obj
+         obj\Debug\ofxCvImage.obj
+         obj\Debug\ofxCvShortImage.obj
+         obj\Debug\ofxMatrix3x3.obj
+         obj\Debug\ofxThread.obj
+         obj\Debug\ofxDirList.obj
+         obj\Debug\ofxffmv.obj
+         obj\Debug\Calibration.obj
+         obj\Debug\CalibrationUtils.obj
+         obj\Debug\TUIO.obj
+         obj\Debug\ofxGui.obj
+         obj\Debug\ofxGuiArrow.obj
+         obj\Debug\ofxGuiButton.obj
+         obj\Debug\ofxGuiColor.obj
+         obj\Debug\ofxGuiFiles.obj
+         obj\Debug\ofxGuiGlobals.obj
+         obj\Debug\ofxGuiGrid.obj
+         obj\Debug\ofxGuiImage.obj
+         obj\Debug\ofxGuiKnob.obj
+         obj\Debug\ofxGuiLabel.obj
+         obj\Debug\ofxGuiMatrix.obj
+         obj\Debug\ofxGuiObject.obj
+         obj\Debug\ofxGuiPanel.obj
+         obj\Debug\ofxGuiPoints.obj
+         obj\Debug\ofxGuiRadar.obj
+         obj\Debug\ofxGuiScope.obj
+         obj\Debug\ofxGuiSlider.obj
+         obj\Debug\ofxGuiSwitch.obj
+         obj\Debug\ofxGuiXYPad.obj
+         obj\Debug\TouchMessenger.obj
+         obj\Debug\CPUImageFilter.obj
+         obj\Debug\GPUImageFilter.obj
+         obj\Debug\ShaderProgram.obj
+         obj\Debug\ofxNCoreVision.obj
+         obj\Debug\ContourFinder.obj
+         obj\Debug\Tracking.obj
+         obj\Debug\TemplateUtils.obj
+         obj\Debug\ofxPS3.obj
+         obj\Debug\ofxFiducialFinder.obj
+         obj\Debug\ofxFiducialTracker.obj
+         obj\Debug\tiled_bernsen_threshold.obj
+         obj\Debug\fidtrackX.obj
+         obj\Debug\segment.obj
+         obj\Debug\treeidmap.obj
+         obj\Debug\ofxCameraBase.obj
+         obj\Debug\ofxGUIDHelper.obj
+         obj\Debug\ofxMultiplexer.obj
+         obj\Debug\ofxMultiplexerManager.obj
+         obj\Debug\ofxCMUCamera.obj
+         obj\Debug\ofxDShow.obj
+         obj\Debug\ofxKinect.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>rtAudioD.lib(rtAudio.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'rtAudioD.lib(rtAudio.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(AtomicCounter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(AtomicCounter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Bugcheck.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Bugcheck.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Debugger.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Debugger.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Exception.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Exception.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Mutex.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Mutex.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(RWLock.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(RWLock.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Timestamp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Timestamp.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(ASCIIEncoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(ASCIIEncoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Latin1Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Latin1Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Latin9Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Latin9Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(TextConverter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextConverter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(TextEncoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextEncoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(TextIterator.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextIterator.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(UnicodeConverter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UnicodeConverter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(UTF16Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UTF16Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(UTF8Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UTF8Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>PocoFoundationmtd.lib(Windows1252Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Windows1252Encoding.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvaccum.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvaccum.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvadapthresh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvadapthresh.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvapprox.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvapprox.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvcolor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvcolor.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvcontours.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvcontours.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvconvhull.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvconvhull.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvfilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvfilter.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvgeometry.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvgeometry.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvhistogram.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvhistogram.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvimgwarp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvimgwarp.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvmoments.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvmoments.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvmorph.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvmorph.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvrotcalipers.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvrotcalipers.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvshapedescr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvshapedescr.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvsmooth.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvsmooth.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvsumpixels.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvsumpixels.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvtables.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvtables.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvtemplmatch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvtemplmatch.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvthresh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvthresh.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvundistort.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvundistort.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cv110d.lib(cvutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvutils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxalloc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxalloc.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxarithm.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxarithm.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxarray.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxarray.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxcmp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxcmp.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxconvert.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxconvert.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxcopy.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxcopy.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxdatastructs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdatastructs.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxdrawing.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdrawing.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxdxt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdxt.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxerror.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxjacobieigens.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxjacobieigens.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxlogic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxlogic.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxlut.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxlut.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmathfuncs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmathfuncs.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmatmul.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmatmul.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmatrix.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmatrix.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmean.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmean.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxmeansdv.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmeansdv.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxminmaxloc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxminmaxloc.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxnorm.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxnorm.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxouttext.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxouttext.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxpersistence.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxpersistence.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxrand.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxrand.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxsumpixels.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxsumpixels.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxsvd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxsvd.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxswitcher.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxswitcher.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxtables.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxtables.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>cxcore110d.lib(cxutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxutils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(IpEndpointName.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(IpEndpointName.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(NetworkingUtils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(NetworkingUtils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(UdpSocket.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(UdpSocket.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(OscOutboundPacketStream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(OscOutboundPacketStream.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(OscReceivedElements.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(OscReceivedElements.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>oscpackd.lib(OscTypes.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'oscpackd.lib(OscTypes.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofAppGlutWindow.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofAppGlutWindow.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofAppRunner.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofAppRunner.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofBitmapFont.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofBitmapFont.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofGraphics.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofGraphics.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofImage.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofImage.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofTexture.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofTexture.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofTrueTypeFont.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofTrueTypeFont.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofMath.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofMath.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofUtils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofUtils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofQtUtils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofQtUtils.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+     1>openframeworksLibDebug.lib(ofVideoPlayer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'openframeworksLibDebug.lib(ofVideoPlayer.obj)' or at 'C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\vc100.pdb'; linking object as if no debug info
+         Community Core Vision.vcxproj -> C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\bin\CCV_debug.exe
+       FinalizeBuildStatus:
+         Deleting file "obj\Debug\Community Core Vision.unsuccessfulbuild".
+         Touching "obj\Debug\Community Core Vision.lastbuildstate".
+     1>Done Building Project "C:\_development\vs2010port\ccv15\apps\addonsExamples\VS2010\Community Core Vision.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:07:36.48

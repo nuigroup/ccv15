@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.0"
+	Name="Community Core Vision"
+	ProjectGUID="{C80C0BD2-75C9-4D6D-B6DF-892F2BCA9729}"
+	VCNestedProjectGUID="{7FD42DF7-442E-479A-BA76-D0022F99702A}"
+	VCNestedProjectFileName="Community Core Vision.vcproj"
+	>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			>
+			<Tool
+				Name="CppCmplrTool"
+				GlobalOptimizations="false"
+				Parallelization="false"
+			/>
+		</Configuration>
+	</Configurations>
+	<Files/>
+</VisualStudioProject>

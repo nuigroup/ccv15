@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
+    <RootNamespace>allAddonsExample</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bin</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CCV_debug</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\addons\ofxCMU\inc;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxDShow\src;..\..\..\addons\ofxNCore\src\Calibration;..\..\..\addons\ofxMultiplexer\inc;..\..\..\addons\ofxCameraBase\inc;..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\quicktime\include;..\..\..\libs\Poco\include;..\..\..\addons;..\..\..\addons\ofxNetwork\src;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxObjLoader\src;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxOsc\src;..\..\..\addons\ofxOsc\libs\oscpack\include\ip;..\..\..\addons\ofxOsc\libs\oscpack\include\osc;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxVectorGraphics\src;..\..\..\addons\ofxVectorGraphics\libs;..\..\..\addons\ofxVectorMath\src;..\..\..\addons\ofxXMLSettings\libs;..\..\..\addons\ofxXMLSettings\src;..\..\..\addons\ofx3DModelLoader\src;..\..\..\addons\ofx3DModelLoader\src\3DS;..\..\..\addons\ofxPS3\src;..\..\..\addons\ofxFFMV\src;..\..\..\addons\ofxNCore\src;..\..\..\addons\ofxDSVL\src;..\..\..\addons\ofxFiducialFinder\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;POCO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>1394camerad.lib;OpenGL32.lib;GLu32.lib;vfw32.lib;kernel32.lib;setupapi.lib;glut32.lib;rtAudioD.lib;videoInput.lib;libfreetype.lib;FreeImage.lib;qtmlClient.lib;dsound.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;GLee.lib;fmodex_vc.lib;glu32.lib;PocoFoundationmtd.lib;PocoNetmtd.lib;PocoUtilmtd.lib;PocoXMLmtd.lib;Ws2_32.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cv110d.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cvaux110d.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cxcore110d.lib;..\..\..\addons\ofxOsc\libs\oscpack\lib\vs2010\oscpackd.lib;..\..\..\addons\ofxPS3\lib\CLEyeMulticam.lib;..\..\..\addons\ofxFFMV\lib\PGRFlyCapture.lib;..\..\..\addons\ofxFFMV\lib\pgrflycapturegui.lib;..\..\..\addons\ofxKinect\lib\CLNUIDevice.lib;..\..\..\libs\openFrameworksCompiled\lib\vs2010\openframeworksLibDebug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)CCV_debug.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\addons\ofxCMU\lib;..\..\..\libs\glut\lib\vs2010;..\..\..\libs\rtAudio\lib\vs2010;..\..\..\libs\freeImage\lib\vs2010;..\..\..\libs\freetype\lib\vs2010;..\..\..\libs\fmodex\lib\vs2010;..\..\..\libs\videoInput\lib\vs2010;..\..\..\libs\glee\lib\vs2008;..\..\..\libs\glu\lib\vs2010;..\..\..\libs\Poco\lib\vs2010;..\..\..\libs\quicktime\lib\vs2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib; LIBC.lib; LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_debugInfo.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\..\addons\ofxVideoPlayer\src;..\..\..\addons\ofxProcessing\src;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxVideoWriter\src;..\..\..\addons\ofxDShow\src;..\..\..\addons\ofxCMU\inc;..\..\..\addons\ofxNCore\src\Calibration;..\..\..\addons\ofxMultiplexer\inc;..\..\..\addons\ofxCameraBase\inc;..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\quicktime\include;..\..\..\libs\Poco\include;..\..\..\addons;..\..\..\addons\ofxNetwork\src;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxObjLoader\src;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxOsc\src;..\..\..\addons\ofxOsc\libs\oscpack\include\ip;..\..\..\addons\ofxOsc\libs\oscpack\include\osc;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxVectorGraphics\src;..\..\..\addons\ofxVectorGraphics\libs;..\..\..\addons\ofxVectorMath\src;..\..\..\addons\ofxXMLSettings\libs;..\..\..\addons\ofxXMLSettings\src;..\..\..\addons\ofx3DModelLoader\src;..\..\..\addons\ofx3DModelLoader\src\3DS;..\..\..\addons\ofxPS3\src;..\..\..\addons\ofxFFMV\src;..\..\..\addons\ofxNCore\src;..\..\..\addons\ofxDSVL\src;..\..\..\addons\ofxFiducialFinder\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;POCO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>1394camera.lib;OpenGL32.lib;vfw32.lib;GLu32.lib;kernel32.lib;setupapi.lib;glut32.lib;videoInput.lib;libfreetype.lib;FreeImage.lib;qtmlClient.lib;dsound.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;GLee.lib;fmodex_vc.lib;glu32.lib;PocoFoundationmt.lib;PocoNetmt.lib;PocoUtilmt.lib;PocoXMLmt.lib;Ws2_32.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2008\cv110.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2008\cvaux110.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2008\cxcore110.lib;..\..\..\addons\ofxOsc\libs\oscpack\lib\vs2008\oscpack.lib;..\..\..\addons\ofxKinect\lib\CLNUIDevice.lib;..\..\..\addons\ofxFFMV\lib\PGRFlyCapture.lib;..\..\..\addons\ofxFFMV\lib\pgrflycapturegui.lib;..\..\..\addons\ofxPS3\lib\CLEyeMulticam.lib;..\..\..\libs\openFrameworksCompiled\lib\vs2008\openframeworksLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)CCV.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\addons\ofxCMU\lib;..\..\..\libs\glut\lib\vs2008;..\..\..\libs\rtAudio\lib\vs2008;..\..\..\libs\freeImage\lib\vs2008;..\..\..\libs\freetype\lib\vs2008;..\..\..\libs\fmodex\lib\vs2008;..\..\..\libs\videoInput\lib\vs2008;..\..\..\libs\glee\lib\vs2008;..\..\..\libs\glu\lib\vs2008;..\..\..\libs\Poco\lib\vs2008;..\..\..\libs\quicktime\lib\vs2008;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib; LIBC.lib; LIBCMT;msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxThread\src\ofxThread.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxDirList\src\ofxDirList.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxFFMV\src\ofxffmv.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Calibration\Calibration.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Calibration\CalibrationUtils.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Communication\TUIO.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGui.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiArrow.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiButton.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiColor.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiFiles.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGlobals.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGrid.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiKnob.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiLabel.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiMatrix.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiObject.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPanel.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPoints.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiRadar.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiScope.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSlider.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSwitch.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiXYPad.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Events\TouchMessenger.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Filters\CPUImageFilter.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Filters\GPUImageFilter.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Filters\ShaderProgram.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Modules\ofxNCoreVision.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Tracking\ContourFinder.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Tracking\Tracking.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Templates\TemplateUtils.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxPS3\src\ofxPS3.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialFinder.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialTracker.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\tiled_bernsen_threshold.c" />
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\fidtrackX.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\segment.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\treeidmap.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxCameraBase\src\ofxCameraBase.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMultiplexer\src\ofxGUIDHelper.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMultiplexer\src\ofxMultiplexer.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMultiplexer\src\ofxMultiplexerManager.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxCMU\src\ofxCMUCamera.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxDShow\src\ofxDShow.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="..\..\..\addons\ofAddons.h" />
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h" />
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetwork.h" />
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.h" />
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.h" />
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.h" />
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOsc.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscArg.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscSender.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint2f.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint3f.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint4f.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec2f.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec3f.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec4f.h" />
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVectorMath.h" />
+    <ClInclude Include="..\..\..\addons\ofxThread\src\ofxThread.h" />
+    <ClInclude Include="..\..\..\addons\ofxDirList\src\ofxDirList.h" />
+    <ClInclude Include="..\..\..\addons\ofxFFMV\src\ofxffmv.h" />
+    <ClInclude Include="..\..\..\addons\ofxFFMV\src\pgrcameragui.h" />
+    <ClInclude Include="..\..\..\addons\ofxFFMV\src\pgrflycapture.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\ofxNCore.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\Calibration.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\CalibrationUtils.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\rect2d.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\vector2d.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Communication\TUIO.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\gui.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGui.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiArrow.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiButton.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiColor.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiFiles.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGlobals.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGrid.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiKnob.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiLabel.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiMatrix.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiObject.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPanel.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPoints.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiRadar.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiScope.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSlider.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSwitch.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiTypes.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiXYPad.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Events\TouchMessenger.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\CPUImageFilter.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\Filters.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\GPUImageFilter.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\ProcessFiducialFilters.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\ProcessFilters.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\ShaderProgram.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Modules\ofxNCoreVision.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Tracking\Blob.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Tracking\ContourFinder.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Tracking\Tracking.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Camera\CameraUtils.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Templates\Template.h" />
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Templates\TemplateUtils.h" />
+    <ClInclude Include="..\..\..\addons\ofxPS3\src\CLEyeMulticam.h" />
+    <ClInclude Include="..\..\..\addons\ofxPS3\src\ofxPS3.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFidMain.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducial.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialFinder.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialTracker.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFinger.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\tiled_bernsen_threshold.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\default_trees.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\fidtrackX.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\floatpoint.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\segment.h" />
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\treeidmap.h" />
+    <ClInclude Include="..\..\..\addons\ofxCameraBase\inc\ofxCameraBase.h" />
+    <ClInclude Include="..\..\..\addons\ofxCameraBase\inc\ofxCameraBaseSettings.h" />
+    <ClInclude Include="..\..\..\addons\ofxMultiplexer\inc\ofxGUIDHelper.h" />
+    <ClInclude Include="..\..\..\addons\ofxMultiplexer\inc\ofxMultiplexer.h" />
+    <ClInclude Include="..\..\..\addons\ofxMultiplexer\inc\ofxMultiplexerManager.h" />
+    <ClInclude Include="..\..\..\addons\ofxCMU\inc\ofxCMUCamera.h" />
+    <ClInclude Include="..\..\..\addons\ofxDShow\src\ofxDShow.h" />
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\CLNUIDevice.h" />
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinect.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Community Core Vision.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

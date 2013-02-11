@@ -195,7 +195,7 @@ int ofxDShow::getCameraBaseCount()
 {
 	if (VI == NULL)
 		VI = new videoInput();
-	return VI->getDeviceCount(true);
+	return VI->getDeviceCount();
 }
 
 void ofxDShow::getNewFrame(unsigned char* newFrame)

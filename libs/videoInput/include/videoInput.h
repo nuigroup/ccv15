@@ -330,7 +330,7 @@ class videoInput{
 		char* getDevicePath( int id );
 
 		// get device count
-		int getDeviceCount( bool bPure = false );
+		int getDeviceCount(  );
 		
 		//number of devices available
 		int  devicesFound;

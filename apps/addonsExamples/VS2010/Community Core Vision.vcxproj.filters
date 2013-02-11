@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{cac6e883-f74f-4ec9-957c-bb8062e3bbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXMLSettings">
+      <UniqueIdentifier>{0b3178f6-204c-4863-8be6-a8aaf3d24f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXMLSettings\src">
+      <UniqueIdentifier>{9afc38dc-7cd6-4afb-bc36-2d03218be5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXMLSettings\libs">
+      <UniqueIdentifier>{bc61b72d-1ef3-4cbe-8d9c-bb78dd9a1507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork">
+      <UniqueIdentifier>{3da36f4b-16e2-4a37-9c53-12faaec6edf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork\src">
+      <UniqueIdentifier>{e38d6d93-8960-42e6-a3e1-2a87a4dadba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc">
+      <UniqueIdentifier>{230c5fb2-9d74-46a0-91bb-7cc92d12a95a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\src">
+      <UniqueIdentifier>{d8101773-71f6-496a-b930-790e0f2d33aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCV">
+      <UniqueIdentifier>{1c69dcfa-1949-4f8a-993f-1e5140ea2391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCV\src">
+      <UniqueIdentifier>{ed1e1864-888c-4567-b413-a2efc864f024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorMath">
+      <UniqueIdentifier>{5c54db35-57b5-4f08-9670-0df0319605c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorMath\src">
+      <UniqueIdentifier>{751d6aab-9941-4ceb-904b-e218e11f0c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThread">
+      <UniqueIdentifier>{8eff8bc3-3579-40dc-8a53-32437a33c9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThread\src">
+      <UniqueIdentifier>{ceee8f10-f02e-4ebf-b253-88f94032afcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxDirList">
+      <UniqueIdentifier>{758dd73a-0dd7-4ec7-8d48-e79c75951151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxDirList\src">
+      <UniqueIdentifier>{724be10f-7df1-4a37-a96f-07d9ab3cb059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFFMV">
+      <UniqueIdentifier>{0842d449-b410-4c44-808d-1035f95b6824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFFMV\src">
+      <UniqueIdentifier>{7c1b896b-2168-4fdb-a918-6eec2ca12554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore">
+      <UniqueIdentifier>{24a07b18-e5cc-4cb4-a3c4-d4a574870088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src">
+      <UniqueIdentifier>{cad0a9df-8584-4eb4-8f9e-c7ebb55cf891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Calibration">
+      <UniqueIdentifier>{03411743-ba25-44f9-83eb-ce99570cf183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Communication">
+      <UniqueIdentifier>{45fbd46c-f5b9-44aa-89ad-780d003fc21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Controls">
+      <UniqueIdentifier>{5f945240-0dc2-485a-8a55-65808f8b1915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Events">
+      <UniqueIdentifier>{bb4c10b4-bb19-41dd-bf0f-9f82b7a8880d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Filters">
+      <UniqueIdentifier>{c13dac8e-aae1-45e2-b600-1d30144d8ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Modules">
+      <UniqueIdentifier>{18197dc2-0d95-4334-a44a-1fa657409213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Tracking">
+      <UniqueIdentifier>{64c602b8-ccf2-4642-86ea-a80f383551d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Camera">
+      <UniqueIdentifier>{fbc1fca6-56b1-4781-8bca-c08aece7fd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNCore\src\Templates">
+      <UniqueIdentifier>{57189725-d37f-4623-a60a-f0bd64b776ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPS3">
+      <UniqueIdentifier>{60555d87-3b75-4172-98fb-793d234f97d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPS3\src">
+      <UniqueIdentifier>{faa21a0f-dd71-487f-a90d-df6e7cde14bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFiducialFinder">
+      <UniqueIdentifier>{9d446e29-4b83-41e1-ba42-514dfb50863a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFiducialFinder\src">
+      <UniqueIdentifier>{2b2da711-a2c1-4682-930d-da3b9cb5c41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFiducialFinder\src\libfidtrack">
+      <UniqueIdentifier>{20ba1922-254f-4939-8c3e-1636cdceb37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCameraBase">
+      <UniqueIdentifier>{7f276192-a71c-4933-a25c-e52dededcce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCameraBase\inc">
+      <UniqueIdentifier>{73bbe428-4676-4a64-92c8-9311c6a9621e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCameraBase\src">
+      <UniqueIdentifier>{ed863fb1-e4d4-48cf-ba28-6dff166d5840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMultiplexer">
+      <UniqueIdentifier>{13cde922-9296-49ef-85b4-de088e921321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMultiplexer\src">
+      <UniqueIdentifier>{9ef25c8f-5a99-45e5-84ff-e0d73c64c0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMultiplexer\inc">
+      <UniqueIdentifier>{03750e85-f1d6-411a-a1f3-b48d4720cce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCMU">
+      <UniqueIdentifier>{301c4e78-709d-44aa-930d-625f26e272e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCMU\inc">
+      <UniqueIdentifier>{93353b12-2d44-48db-9ff6-5186f088f777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCMU\src">
+      <UniqueIdentifier>{6faf74a6-5dec-4b72-8fec-470d16e08f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxDShow">
+      <UniqueIdentifier>{9e098a15-6253-426c-b1a4-1c937a361cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxDShow\src">
+      <UniqueIdentifier>{3945b5c2-64ce-49cf-b31a-9b295308fefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinect">
+      <UniqueIdentifier>{e71645ff-a8df-4cba-bc15-3cf19030e862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinect\inc">
+      <UniqueIdentifier>{cfd8d5f2-c868-4b94-99dc-b2310d258ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinect\src">
+      <UniqueIdentifier>{67fc3ae0-af71-4656-9f1c-7b32cb998387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{33b41c66-1ae8-4034-9acb-26f9a9e01a3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXMLSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXMLSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXMLSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXMLSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.cpp">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxThread\src\ofxThread.cpp">
+      <Filter>addons\ofxThread\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxDirList\src\ofxDirList.cpp">
+      <Filter>addons\ofxDirList\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFFMV\src\ofxffmv.cpp">
+      <Filter>addons\ofxFFMV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Calibration\Calibration.cpp">
+      <Filter>addons\ofxNCore\src\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Calibration\CalibrationUtils.cpp">
+      <Filter>addons\ofxNCore\src\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Communication\TUIO.cpp">
+      <Filter>addons\ofxNCore\src\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGui.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiArrow.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiButton.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiColor.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiFiles.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGlobals.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGrid.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiImage.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiKnob.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiLabel.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiMatrix.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiObject.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPanel.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPoints.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiRadar.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiScope.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSlider.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSwitch.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiXYPad.cpp">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Events\TouchMessenger.cpp">
+      <Filter>addons\ofxNCore\src\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Filters\CPUImageFilter.cpp">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Filters\GPUImageFilter.cpp">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Filters\ShaderProgram.cpp">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Modules\ofxNCoreVision.cpp">
+      <Filter>addons\ofxNCore\src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Tracking\ContourFinder.cpp">
+      <Filter>addons\ofxNCore\src\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Tracking\Tracking.cpp">
+      <Filter>addons\ofxNCore\src\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNCore\src\Templates\TemplateUtils.cpp">
+      <Filter>addons\ofxNCore\src\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPS3\src\ofxPS3.cpp">
+      <Filter>addons\ofxPS3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialFinder.cpp">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialTracker.cpp">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\tiled_bernsen_threshold.c">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\fidtrackX.cpp">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\segment.cpp">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\treeidmap.cpp">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCameraBase\src\ofxCameraBase.cpp">
+      <Filter>addons\ofxCameraBase\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMultiplexer\src\ofxGUIDHelper.cpp">
+      <Filter>addons\ofxMultiplexer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMultiplexer\src\ofxMultiplexer.cpp">
+      <Filter>addons\ofxMultiplexer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMultiplexer\src\ofxMultiplexerManager.cpp">
+      <Filter>addons\ofxMultiplexer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCMU\src\ofxCMUCamera.cpp">
+      <Filter>addons\ofxCMU\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxDShow\src\ofxDShow.cpp">
+      <Filter>addons\ofxDShow\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinect.cpp">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofAddons.h">
+      <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXMLSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXMLSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetwork.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOsc.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscArg.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscSender.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint2f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint3f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint4f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec2f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec3f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec4f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVectorMath.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxThread\src\ofxThread.h">
+      <Filter>addons\ofxThread\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxDirList\src\ofxDirList.h">
+      <Filter>addons\ofxDirList\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFFMV\src\ofxffmv.h">
+      <Filter>addons\ofxFFMV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFFMV\src\pgrcameragui.h">
+      <Filter>addons\ofxFFMV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFFMV\src\pgrflycapture.h">
+      <Filter>addons\ofxFFMV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\ofxNCore.h">
+      <Filter>addons\ofxNCore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\Calibration.h">
+      <Filter>addons\ofxNCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\CalibrationUtils.h">
+      <Filter>addons\ofxNCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\rect2d.h">
+      <Filter>addons\ofxNCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Calibration\vector2d.h">
+      <Filter>addons\ofxNCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Communication\TUIO.h">
+      <Filter>addons\ofxNCore\src\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\gui.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGui.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiArrow.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiButton.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiColor.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiFiles.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGlobals.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiGrid.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiImage.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiKnob.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiLabel.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiMatrix.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiObject.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPanel.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiPoints.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiRadar.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiScope.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSlider.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiSwitch.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiTypes.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Controls\ofxGuiXYPad.h">
+      <Filter>addons\ofxNCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Events\TouchMessenger.h">
+      <Filter>addons\ofxNCore\src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\CPUImageFilter.h">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\Filters.h">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\GPUImageFilter.h">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\ProcessFiducialFilters.h">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\ProcessFilters.h">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Filters\ShaderProgram.h">
+      <Filter>addons\ofxNCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Modules\ofxNCoreVision.h">
+      <Filter>addons\ofxNCore\src\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Tracking\Blob.h">
+      <Filter>addons\ofxNCore\src\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Tracking\ContourFinder.h">
+      <Filter>addons\ofxNCore\src\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Tracking\Tracking.h">
+      <Filter>addons\ofxNCore\src\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Camera\CameraUtils.h">
+      <Filter>addons\ofxNCore\src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Templates\Template.h">
+      <Filter>addons\ofxNCore\src\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNCore\src\Templates\TemplateUtils.h">
+      <Filter>addons\ofxNCore\src\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPS3\src\CLEyeMulticam.h">
+      <Filter>addons\ofxPS3\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPS3\src\ofxPS3.h">
+      <Filter>addons\ofxPS3\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFidMain.h">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducial.h">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialFinder.h">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFiducialTracker.h">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\ofxFinger.h">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\tiled_bernsen_threshold.h">
+      <Filter>addons\ofxFiducialFinder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\default_trees.h">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\fidtrackX.h">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\floatpoint.h">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\segment.h">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFiducialFinder\src\libfidtrack\treeidmap.h">
+      <Filter>addons\ofxFiducialFinder\src\libfidtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCameraBase\inc\ofxCameraBase.h">
+      <Filter>addons\ofxCameraBase\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCameraBase\inc\ofxCameraBaseSettings.h">
+      <Filter>addons\ofxCameraBase\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMultiplexer\inc\ofxGUIDHelper.h">
+      <Filter>addons\ofxMultiplexer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMultiplexer\inc\ofxMultiplexer.h">
+      <Filter>addons\ofxMultiplexer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMultiplexer\inc\ofxMultiplexerManager.h">
+      <Filter>addons\ofxMultiplexer\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCMU\inc\ofxCMUCamera.h">
+      <Filter>addons\ofxCMU\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxDShow\src\ofxDShow.h">
+      <Filter>addons\ofxDShow\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\CLNUIDevice.h">
+      <Filter>addons\ofxKinect\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinect.h">
+      <Filter>addons\ofxKinect\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Community Core Vision.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+</Project>
