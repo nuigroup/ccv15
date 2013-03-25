@@ -333,7 +333,7 @@ class videoInput{
 		#if (_MSC_VER >= 1500 && _MSC_VER < 1600) //checks for visual studio version
 			int getDeviceCount( bool bPure = false );
 		#else
-			int getDeviceCount( );
+			int getDeviceCount(  );
 		#endif
 		
 		//number of devices available
