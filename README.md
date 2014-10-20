@@ -1,5 +1,9 @@
 # Overview
 Community Core Vision (CCV for short) is an open-source/cross-platform solution for computer vision and machine sensing, specifically blob tracking.
+
+http://ccv.nuigroup.com
+
+
 It takes an video input stream and outputs tracking data (e.g. coordinates and blob size) and events (e.g. finger down, moved and released) that are used in building NUI-aware applications. 
 CCV can interface with various web cameras and video devices as well as connect to various TUIO/OSC/XML enabled applications and supports many multi-touch lighting techniques including:
 FTIR, DI, DSI, and LLP with expansion planned for the future vision applications (custom modules/filters) in CCV 2.0.
